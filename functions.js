@@ -15,7 +15,7 @@ const translations = {
         "sec2.text2": "When accessing this website, no cookies are set and no analytics tools are used.",
         "sec2.text3": "Note: GitHub may collect server log files (IP address, date, time). This is the responsibility of GitHub (Microsoft).",
 
-        "sec3.title": "3. App Provisions (FinMate)",
+        "sec3.title": "3. App Provisions (Monetheus)",
         "sec3.text1": "In my apps, protecting your privacy is the top priority:",
         "sec3.point1": "Local Storage: All financial data is stored exclusively on your device (SwiftData).",
         "sec3.point2": "No Data Access: As the developer, I have no access to your income or expenses.",
@@ -61,7 +61,7 @@ const translations = {
         "sec2.text2": "Beim Zugriff auf diese Webseite werden keine Cookies gesetzt und keine Analyse-Tools verwendet.",
         "sec2.text3": "Hinweis: GitHub kann Server-Log-Files (IP-Adresse, Datum, Uhrzeit) erheben. Dies liegt in der Verantwortung von GitHub (Microsoft).",
 
-        "sec3.title": "3. App-Bestimmungen (FinMate)",
+        "sec3.title": "3. App-Bestimmungen (Monetheus)",
         "sec3.text1": "In meinen Apps steht der Schutz Ihrer Privatsphäre an oberster Stelle:",
         "sec3.point1": "Lokale Speicherung: Alle Finanzdaten werden ausschließlich lokal auf Ihrem Gerät gespeichert (SwiftData).",
         "sec3.point2": "Kein Datenzugriff: Ich als Entwickler habe keinerlei Zugriff auf Ihre Einnahmen oder Ausgaben.",
