@@ -19,7 +19,7 @@ const translations = {
         "sec3.text1": "In my apps, protecting your privacy is the top priority:",
         "sec3.point1": "Local Storage: All financial data is stored exclusively on your device (SwiftData).",
         "sec3.point2": "No Data Access: As the developer, I have no access to your income or expenses.",
-        "sec3.point3": "iCloud: Optional synchronization uses only your private, encrypted iCloud storage.",
+        "sec3.point3": "Data Export/Import: You can export and import your data as a JSON file at any time — giving you full control over your data.",
 
         "sec4.title": "4. Your Rights",
         "sec4.text": "You have the right to information, correction, deletion, and restriction of processing under GDPR.",
@@ -65,7 +65,7 @@ const translations = {
         "sec3.text1": "In meinen Apps steht der Schutz Ihrer Privatsphäre an oberster Stelle:",
         "sec3.point1": "Lokale Speicherung: Alle Finanzdaten werden ausschließlich lokal auf Ihrem Gerät gespeichert (SwiftData).",
         "sec3.point2": "Kein Datenzugriff: Ich als Entwickler habe keinerlei Zugriff auf Ihre Einnahmen oder Ausgaben.",
-        "sec3.point3": "iCloud: Ein optionaler Abgleich erfolgt ausschließlich über Ihren privaten, verschlüsselten iCloud-Speicher.",
+        "sec3.point3": "Datenexport/-import: Sie können Ihre Daten jederzeit als JSON-Datei exportieren und importieren — Sie behalten die volle Kontrolle über Ihre Daten.",
 
         "sec4.title": "4. Ihre Rechte",
         "sec4.text": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung gemäß der DSGVO.",
