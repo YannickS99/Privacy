@@ -9,6 +9,7 @@ const translations = {
         "header.subtitle": "Information about the processing of personal data according to GDPR.",
 
         "sec1.title": "1. Controller",
+        "sec1.link": "More information",
 
         "sec2.title": "2. Web Appearance (GitHub Pages)",
         "sec2.text1": "My websites are static pages hosted via GitHub Pages.",
@@ -55,6 +56,7 @@ const translations = {
         "header.subtitle": "Informationen über die Verarbeitung personenbezogener Daten gemäß DSGVO.",
 
         "sec1.title": "1. Verantwortlicher",
+        "sec1.link": "Weitere Informationen",
 
         "sec2.title": "2. Webauftritt (GitHub Pages)",
         "sec2.text1": "Meine Webseiten sind statische Seiten, die über GitHub Pages gehostet werden.",
