@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="page.title">Privacy Policy</title>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/inter.css">
 </head>
 
 <body class="bg-gray-950 text-gray-300 font-sans selection:bg-brand-500/30">
@@ -55,23 +52,31 @@
             <div class="space-y-16">
 
 
+                <!-- 1. Controller -->
                 <section class="reveal">
 
                     <h2 class="text-xl font-bold text-white mb-6" data-i18n="sec1.title">1. Controller</h2>
 
                     <div class="p-8 rounded-[2rem] bg-white/[0.02] border border-white/5 shadow-2xl">
 
-                        <p class="text-white font-semibold text-lg">Yannick Schroth</p>
+                        <p class="text-white font-semibold text-lg">Monetheus – Yannick Schroth</p>
+
+                        <p class="mt-2">c/o Online-Impressum #7495</p>
+                        <p>Europaring 90</p>
+                        <p>53757 Sankt Augustin</p>
+                        <p data-i18n="sec1.country">Germany</p>
 
                         <p class="mt-4 text-emerald-400 font-medium">contact@schrotech.de</p>
 
-                        <a class="mt-4 text-blue-400 text-sm" href="https://imprint.schrotech.de" data-i18n="sec1.link">More information</a>
+                        <a class="mt-4 text-blue-400 text-sm" href="https://imprint.schrotech.de"
+                            data-i18n="sec1.link">Full imprint</a>
 
                     </div>
 
                 </section>
 
 
+                <!-- 2. Web Appearance -->
                 <section class="reveal">
 
                     <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec2.title">
@@ -81,16 +86,11 @@
                     <div class="space-y-4 text-gray-400 leading-relaxed">
 
                         <p data-i18n="sec2.text1">
-                            My websites are static pages hosted via GitHub Pages.
+                            My websites are static pages hosted via GitHub Pages. When accessing this website, no cookies are set by me and no analytics tools are used.
                         </p>
 
-                        <p data-i18n="sec2.text2">
-                            When accessing this website, no cookies are set and no analytics tools are used.
-                        </p>
-
-                        <p class="text-sm italic p-4 bg-white/5 rounded-xl" data-i18n="sec2.text3">
-                            Note: GitHub may collect server log files (IP address, date, time). This is the
-                            responsibility of GitHub (Microsoft).
+                        <p class="text-sm italic p-4 bg-white/5 rounded-xl" data-i18n="sec2.text2">
+                            Note: GitHub may collect server log files (IP address, browser type, operating system, date and time of access). This is the responsibility of GitHub Inc. (Microsoft Corporation). For details, see the GitHub Privacy Statement.
                         </p>
 
                     </div>
@@ -98,12 +98,48 @@
                 </section>
 
 
+                <!-- 3. Third-Party Services -->
+                <section class="reveal">
+
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec3.title">
+                        3. Third-Party Services on This Website
+                    </h2>
+
+                    <div class="space-y-6 text-gray-400 leading-relaxed">
+
+                        <div>
+                            <p class="text-white font-medium mb-2">Google Fonts</p>
+                            <p data-i18n="sec3.gfonts">
+                                This website uses the Google Fonts typeface 'Inter', which is hosted locally on this server. No connection to Google servers is established and no data is transmitted to Google.
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-white font-medium mb-2">Tailwind CSS CDN</p>
+                            <p data-i18n="sec3.tailwind">
+                                This website loads the Tailwind CSS framework from an external CDN. When accessing this website, your browser establishes a connection to the CDN server, which may transmit your IP address. The legal basis is Art. 6 (1) lit. f GDPR (legitimate interest in the technical provision of the website).
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-white font-medium mb-2">Online-Impressum.de</p>
+                            <p data-i18n="sec3.impressum">
+                                For legal compliance, an alternative contact method is provided via online-impressum.de (mein.online-impressum.de). When you use this service, data may be processed by Online-Impressum according to their own privacy policy. The legal basis is Art. 6 (1) lit. c GDPR (legal obligation under §5 DDG).
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- 4. App Provisions -->
                 <section class="reveal">
 
                     <div class="flex items-center gap-4 mb-6">
 
-                        <h2 class="text-xl font-bold text-white" data-i18n="sec3.title">
-                            3. App Provisions (Monetheus)
+                        <h2 class="text-xl font-bold text-white" data-i18n="sec4.title">
+                            4. App Provisions (Monetheus)
                         </h2>
 
                         <span
@@ -115,7 +151,7 @@
 
                     <div class="p-8 rounded-[2rem] bg-emerald-500/[0.03] border border-emerald-500/10">
 
-                        <p class="mb-6 text-white font-medium" data-i18n="sec3.text1">
+                        <p class="mb-6 text-white font-medium" data-i18n="sec4.text1">
                             In my apps, protecting your privacy is the top priority:
                         </p>
 
@@ -125,8 +161,8 @@
                                 <div
                                     class="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]">
                                 </div>
-                                <span data-i18n="sec3.point1">
-                                    Local Storage: All financial data is stored exclusively on your device (SwiftData).
+                                <span data-i18n="sec4.point1">
+                                    Local Storage: All financial data is stored exclusively on your device (SwiftData). No data is transmitted to external servers.
                                 </span>
                             </li>
 
@@ -134,8 +170,8 @@
                                 <div
                                     class="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]">
                                 </div>
-                                <span data-i18n="sec3.point2">
-                                    No Data Access: As the developer, I have no access to your income or expenses.
+                                <span data-i18n="sec4.point2">
+                                    No Data Access: As the developer, I have no access to your financial data, income, or expenses.
                                 </span>
                             </li>
 
@@ -143,8 +179,8 @@
                                 <div
                                     class="mt-1.5 w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]">
                                 </div>
-                                <span data-i18n="sec3.point3">
-                                    Data Export/Import: You can export and import your data as a JSON file at any time — giving you full control over your data.
+                                <span data-i18n="sec4.point3">
+                                    Data Export/Import: You can export and import your data as a file at any time — giving you full control over your data.
                                 </span>
                             </li>
 
@@ -152,62 +188,22 @@
 
                     </div>
 
-                </section>
+                    <div class="mt-6 space-y-4 text-gray-400 leading-relaxed">
 
-
-                <section class="reveal">
-
-                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec4.title">
-                        4. Your Rights
-                    </h2>
-
-                    <p class="text-gray-400" data-i18n="sec4.text">
-                        You have the right to information, correction, deletion, and restriction of processing under
-                        GDPR.
-                    </p>
-
-                </section>
-
-
-                <section class="reveal">
-
-                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec5.title">
-                        5. Legal Basis
-                    </h2>
-
-                    <p class="text-gray-400" data-i18n="sec5.text">
-                        The processing of personal data on this website is based on Art. 6 (1) lit. f GDPR.
-                        The legitimate interest lies in the technically secure and optimized provision of this website.
-                    </p>
-
-                </section>
-
-
-                <section class="reveal">
-
-                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec6.title">
-                        6. Hosting
-                    </h2>
-
-                    <div class="space-y-4 text-gray-400 leading-relaxed">
-
-                        <p data-i18n="sec6.text1">
-                            This website is hosted via GitHub Pages, a service provided by GitHub Inc., part of
-                            Microsoft Corporation.
+                        <p class="text-white font-medium" data-i18n="sec4.iap_title">
+                            In-App Purchases & Apple App Store
                         </p>
 
-                        <p data-i18n="sec6.text2">
-                            When accessing the website, technical server log files may be automatically processed (e.g.
-                            IP address, browser type, operating system, date and time of access).
+                        <p data-i18n="sec4.iap_text">
+                            The app is distributed via the Apple App Store and offers in-app purchases (subscriptions). Payments are processed exclusively by Apple Inc. I do not receive or store any payment data (credit card information, bank details, etc.). Apple processes your data in accordance with its own privacy policy. The legal basis is Art. 6 (1) lit. b GDPR (performance of a contract).
                         </p>
 
-                        <p data-i18n="sec6.text3">
-                            These data are necessary for the secure and stable operation of the website.
+                        <p class="text-white font-medium mt-4" data-i18n="sec4.rc_title">
+                            RevenueCat
                         </p>
 
-                        <p data-i18n="sec6.text4">
-                            Data processing may also take place on servers outside the European Union, particularly in
-                            the United States.
+                        <p data-i18n="sec4.rc_text">
+                            This app uses RevenueCat (RevenueCat Inc., San Francisco, USA) to manage in-app subscriptions. When you use the app, RevenueCat may process the following data: an anonymous user ID, purchase and subscription status (provided by Apple), device information (operating system version, app version), and your IP address through the API connection. This data is necessary for the management and verification of your subscription. RevenueCat acts as a data processor on my behalf. The legal basis is Art. 6 (1) lit. b GDPR (performance of a contract). RevenueCat participates in the EU-U.S. Data Privacy Framework. For details, see the RevenueCat Privacy Policy.
                         </p>
 
                     </div>
@@ -215,6 +211,62 @@
                 </section>
 
 
+                <!-- 5. Legal Basis -->
+                <section class="reveal">
+
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec5.title">
+                        5. Legal Basis
+                    </h2>
+
+                    <div class="space-y-4 text-gray-400 leading-relaxed">
+
+                        <p data-i18n="sec5.text1">
+                            The processing of personal data is based on the following legal grounds:
+                        </p>
+
+                        <ul class="space-y-3 ml-4">
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec5.basis_f">Art. 6 (1) lit. f GDPR — Legitimate interest in the technically secure and optimized provision of this website.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec5.basis_b">Art. 6 (1) lit. b GDPR — Performance of a contract (e.g. in-app purchases, app usage).</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec5.basis_c">Art. 6 (1) lit. c GDPR — Compliance with legal obligations (e.g. imprint requirements).</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </section>
+
+
+                <!-- 6. International Data Transfers -->
+                <section class="reveal">
+
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec6.title">
+                        6. International Data Transfers
+                    </h2>
+
+                    <div class="space-y-4 text-gray-400 leading-relaxed">
+
+                        <p data-i18n="sec6.text1">
+                            Through the use of GitHub Pages, Apple services, and RevenueCat, data may be transferred to servers in the United States.
+                        </p>
+
+                        <p data-i18n="sec6.text2">
+                            These providers participate in the EU-U.S. Data Privacy Framework, which ensures an adequate level of data protection as recognized by the European Commission (Adequacy Decision of 10 July 2023).
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- 7. Storage Duration -->
                 <section class="reveal">
 
                     <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec7.title">
@@ -222,36 +274,98 @@
                     </h2>
 
                     <p class="text-gray-400" data-i18n="sec7.text">
-                        Personal data will only be stored for as long as necessary to fulfill the respective purpose or
-                        as required by legal retention obligations.
+                        Personal data will only be stored for as long as necessary to fulfill the respective purpose or as required by legal retention obligations. Server log files collected by GitHub are subject to GitHub's retention policies.
                     </p>
 
                 </section>
 
 
+                <!-- 8. Your Rights -->
                 <section class="reveal">
 
                     <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec8.title">
-                        8. Contact
+                        8. Your Rights
                     </h2>
 
-                    <p class="text-gray-400" data-i18n="sec8.text">
-                        If you contact me via email, the transmitted data will be stored for the purpose of processing
-                        your request. This data will not be passed on without your consent.
+                    <div class="space-y-4 text-gray-400 leading-relaxed">
+
+                        <p data-i18n="sec8.intro">
+                            Under the GDPR, you have the following rights regarding your personal data:
+                        </p>
+
+                        <ul class="space-y-3 ml-4">
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right1">Right of access (Art. 15 GDPR) — You can request information about the data stored about you.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right2">Right to rectification (Art. 16 GDPR) — You can request the correction of inaccurate data.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right3">Right to erasure (Art. 17 GDPR) — You can request the deletion of your data under certain conditions.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right4">Right to restriction of processing (Art. 18 GDPR) — You can request the restriction of data processing.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right5">Right to data portability (Art. 20 GDPR) — You can request to receive your data in a structured, commonly used format.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-emerald-500 mt-1">•</span>
+                                <span data-i18n="sec8.right6">Right to object (Art. 21 GDPR) — You can object to the processing of your data based on legitimate interests at any time.</span>
+                            </li>
+                        </ul>
+
+                        <p data-i18n="sec8.contact">
+                            To exercise your rights, please contact me at the address or email listed above.
+                        </p>
+
+                    </div>
+
+                </section>
+
+
+                <!-- 9. Contact -->
+                <section class="reveal">
+
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec9.title">
+                        9. Contact
+                    </h2>
+
+                    <p class="text-gray-400" data-i18n="sec9.text">
+                        If you contact me via email, the transmitted data (e.g. email address, name, content of your message) will be stored for the purpose of processing your request. This data will not be passed on to third parties without your consent. The legal basis is Art. 6 (1) lit. f GDPR. The data will be deleted once your request has been fully processed, unless legal retention obligations apply.
                     </p>
 
                 </section>
 
 
+                <!-- 10. Right to Lodge a Complaint -->
                 <section class="reveal">
 
-                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec9.title">
-                        9. Right to Lodge a Complaint
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec10.title">
+                        10. Right to Lodge a Complaint
                     </h2>
 
-                    <p class="text-gray-400" data-i18n="sec9.text">
-                        You have the right to lodge a complaint with a supervisory authority if you believe that the
-                        processing of your personal data violates the GDPR.
+                    <p class="text-gray-400" data-i18n="sec10.text">
+                        You have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your personal data violates the GDPR (Art. 77 GDPR). The competent supervisory authority is the data protection authority of the German federal state in which you reside, or the authority responsible for the controller.
+                    </p>
+
+                </section>
+
+
+                <!-- 11. Changes -->
+                <section class="reveal">
+
+                    <h2 class="text-xl font-bold text-white mb-4" data-i18n="sec11.title">
+                        11. Changes to This Privacy Policy
+                    </h2>
+
+                    <p class="text-gray-400" data-i18n="sec11.text">
+                        This privacy policy may be updated from time to time to reflect changes in data processing practices or legal requirements. The current version is always available at this URL.
                     </p>
 
                 </section>
@@ -271,8 +385,12 @@
                     <span class="text-sm text-gray-500" data-i18n="footer.status">Status: April 2026</span>
                 </div>
                 <div class="flex items-center gap-6">
-                    <a href="https://monetheus.schrotech.de" class="text-sm text-gray-500 hover:text-gray-300 transition-colors" data-i18n="footer.monetheus">Monetheus</a>
-                    <a href="https://imprint.schrotech.de" class="text-sm text-gray-500 hover:text-gray-300 transition-colors" data-i18n="footer.legal">Legal Notice</a>
+                    <a href="https://monetheus.schrotech.de"
+                        class="text-sm text-gray-500 hover:text-gray-300 transition-colors"
+                        data-i18n="footer.monetheus">Monetheus</a>
+                    <a href="https://imprint.schrotech.de"
+                        class="text-sm text-gray-500 hover:text-gray-300 transition-colors"
+                        data-i18n="footer.legal">Legal Notice</a>
                 </div>
             </div>
         </div>
