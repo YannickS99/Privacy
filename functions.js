@@ -43,7 +43,9 @@ const translations = {
         "sec9.title": "9. Right to Lodge a Complaint",
         "sec9.text": "You have the right to lodge a complaint with a supervisory authority if you believe that the processing of your personal data violates the GDPR.",
 
-        "footer.status": "Status: March 2026"
+        "footer.status": "Status: April 2026",
+        "footer.monetheus": "Monetheus",
+        "footer.legal": "Legal Notice"
 
     },
 
@@ -90,7 +92,9 @@ const translations = {
         "sec9.title": "9. Beschwerderecht",
         "sec9.text": "Sie haben das Recht, sich bei einer Datenschutzaufsichtsbehörde zu beschweren, wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt.",
 
-        "footer.status": "Stand: März 2026"
+        "footer.status": "Stand: April 2026",
+        "footer.monetheus": "Monetheus",
+        "footer.legal": "Impressum"
 
     }
 
