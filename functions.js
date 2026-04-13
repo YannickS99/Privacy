@@ -19,7 +19,7 @@ const translations = {
         "sec3.title": "3. Third-Party Services on This Website",
         "sec3.gfonts": "This website uses the Google Fonts typeface 'Inter', which is hosted locally on this server. No connection to Google servers is established and no data is transmitted to Google.",
         "sec3.tailwind": "This website uses the Tailwind CSS framework, which is hosted locally on this server. No connection to external CDN servers is established.",
-        "sec3.impressum": "For legal compliance, an alternative contact method is provided via online-impressum.de (mein.online-impressum.de). When you use this service, data may be processed by Online-Impressum according to their own privacy policy. The legal basis is Art. 6 (1) lit. c GDPR (legal obligation under §5 DDG).",
+        "sec3.impressum": "Englischer Text für Impressum Anbieter",
 
         "sec4.title": "4. App Provisions (Monetheus)",
         "sec4.text1": "In my apps, protecting your privacy is the top priority:",
@@ -88,7 +88,7 @@ const translations = {
         "sec3.title": "3. Drittanbieterdienste auf dieser Website",
         "sec3.gfonts": "Diese Website verwendet die Schriftart 'Inter' von Google Fonts, die lokal auf diesem Server gehostet wird. Es wird keine Verbindung zu Google-Servern hergestellt und es werden keine Daten an Google übermittelt.",
         "sec3.tailwind": "Diese Website verwendet das CSS-Framework Tailwind CSS, das lokal auf diesem Server gehostet wird. Es wird keine Verbindung zu externen CDN-Servern hergestellt.",
-        "sec3.impressum": "Zur Erfüllung gesetzlicher Pflichten wird ein alternativer Kontaktweg über online-impressum.de (mein.online-impressum.de) bereitgestellt. Bei Nutzung dieses Dienstes können Daten durch Online-Impressum gemäß deren eigener Datenschutzerklärung verarbeitet werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung nach §5 DDG).",
+        "sec3.impressum": "Deutscher Text für Impressum Anbieter",
 
         "sec4.title": "4. App-Bestimmungen (Monetheus)",
         "sec4.text1": "In meinen Apps steht der Schutz Ihrer Privatsphäre an oberster Stelle:",
