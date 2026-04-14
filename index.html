@@ -57,19 +57,62 @@
 
                     <h2 class="text-xl font-bold text-white mb-6" data-i18n="sec1.title">1. Controller</h2>
 
-                    <div class="p-8 rounded-[2rem] bg-white/[0.02] border border-white/5 shadow-2xl">
+                    <div class="grid md:grid-cols-2 gap-6">
 
-                        <p class="text-white font-semibold text-lg">Yannick Schroth - Schrotech</p>
+                        <div class="p-8 rounded-[2rem] bg-white/[0.02] border border-white/5 shadow-2xl">
 
-                        <p class="mt-2">c/o ...</p>
-                        <p>Straße 1</p>
-                        <p>12345 Ort</p>
-                        <p data-i18n="sec1.country">Germany</p>
+                            <div class="flex items-center gap-3 mb-5">
+                                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-white font-semibold" data-i18n="sec1.addressTitle">Address</h3>
+                            </div>
 
-                        <p class="mt-4 text-emerald-400 font-medium">contact@schrotech.de</p>
+                            <p class="text-white font-semibold text-lg">Yannick Schroth</p>
+                            <p>c/o Impressumsservice Dein Impressum</p>
+                            <p>Stettiner Str. 41</p>
+                            <p>35410 Hungen</p>
+                            <p data-i18n="sec1.country">Germany</p>
 
-                        <a class="mt-4 text-blue-400 text-sm" href="https://imprint.schrotech.de"
-                            data-i18n="sec1.link">Full imprint</a>
+                            <p class="mt-5 text-xs text-gray-500 border-t border-white/5 pt-4" data-i18n="sec1.nopackages">
+                                Please do not send packages to this address.
+                            </p>
+
+                        </div>
+
+                        <div class="p-8 rounded-[2rem] bg-white/[0.02] border border-white/5 shadow-2xl">
+
+                            <div class="flex items-center gap-3 mb-5">
+                                <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-white font-semibold" data-i18n="sec1.contactTitle">Contact</h3>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div>
+                                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1" data-i18n="sec1.emailLabel">E-Mail</p>
+                                    <a href="mailto:contact@schrotech.de" class="text-emerald-400 font-medium hover:text-emerald-300 transition-colors">
+                                        contact@schrotech.de
+                                    </a>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500 uppercase tracking-wider mb-1" data-i18n="sec1.phoneLabel">Phone</p>
+                                    <a href="tel:+4962143771865" class="text-emerald-400 font-medium hover:text-emerald-300 transition-colors">
+                                        0621 43771865
+                                    </a>
+                                </div>
+                            </div>
+
+                            <a class="inline-block mt-5 text-blue-400 hover:text-blue-300 text-sm border-t border-white/5 pt-4 w-full transition-colors" href="https://imprint.schrotech.de"
+                                data-i18n="sec1.link">Full imprint</a>
+
+                        </div>
 
                     </div>
 
@@ -122,9 +165,9 @@
                         </div>
 
                         <div>
-                            <p class="text-white font-medium mb-2">Anbieter Impressum</p>
+                            <p class="text-white font-medium mb-2" data-i18n="sec3.impressum_title">Imprint Service Provider</p>
                             <p data-i18n="sec3.impressum">
-                                Text für Impressum Anbieter
+                                This website uses the imprint service "Dein Impressum" (ihr-impressum.de) for the provision of the legally required imprint address. The service provider receives and forwards postal mail on my behalf. In doing so, the service provider may process personal data (e.g. sender name and address) contained in correspondence sent to the imprint address. The processing is carried out on the basis of Art. 6 (1) lit. c GDPR (compliance with a legal obligation, namely the imprint requirement under § 5 DDG). Further information can be found in the privacy policy of "Dein Impressum" at ihr-impressum.de.
                             </p>
                         </div>
 

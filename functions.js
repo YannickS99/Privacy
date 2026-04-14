@@ -9,7 +9,12 @@ const translations = {
         "header.subtitle": "Information about the processing of personal data according to GDPR.",
 
         "sec1.title": "1. Controller",
+        "sec1.addressTitle": "Address",
         "sec1.country": "Germany",
+        "sec1.nopackages": "Please do not send packages to this address.",
+        "sec1.contactTitle": "Contact",
+        "sec1.emailLabel": "E-Mail",
+        "sec1.phoneLabel": "Phone",
         "sec1.link": "Full imprint",
 
         "sec2.title": "2. Web Appearance (GitHub Pages)",
@@ -19,7 +24,8 @@ const translations = {
         "sec3.title": "3. Third-Party Services on This Website",
         "sec3.gfonts": "This website uses the Google Fonts typeface 'Inter', which is hosted locally on this server. No connection to Google servers is established and no data is transmitted to Google.",
         "sec3.tailwind": "This website uses the Tailwind CSS framework, which is hosted locally on this server. No connection to external CDN servers is established.",
-        "sec3.impressum": "Englischer Text für Impressum Anbieter",
+        "sec3.impressum_title": "Imprint Service Provider",
+        "sec3.impressum": "This website uses the imprint service \"Dein Impressum\" (ihr-impressum.de) for the provision of the legally required imprint address. The service provider receives and forwards postal mail on my behalf. In doing so, the service provider may process personal data (e.g. sender name and address) contained in correspondence sent to the imprint address. The processing is carried out on the basis of Art. 6 (1) lit. c GDPR (compliance with a legal obligation, namely the imprint requirement under § 5 DDG). Further information can be found in the privacy policy of \"Dein Impressum\" at ihr-impressum.de.",
 
         "sec4.title": "4. App Provisions (Monetheus)",
         "sec4.text1": "In my apps, protecting your privacy is the top priority:",
@@ -78,7 +84,12 @@ const translations = {
         "header.subtitle": "Informationen über die Verarbeitung personenbezogener Daten gemäß DSGVO.",
 
         "sec1.title": "1. Verantwortlicher",
+        "sec1.addressTitle": "Adresse",
         "sec1.country": "Deutschland",
+        "sec1.nopackages": "Bitte versenden Sie keine Pakete an diese Adresse.",
+        "sec1.contactTitle": "Kontakt",
+        "sec1.emailLabel": "E-Mail",
+        "sec1.phoneLabel": "Telefon",
         "sec1.link": "Vollständiges Impressum",
 
         "sec2.title": "2. Webauftritt (GitHub Pages)",
@@ -88,7 +99,8 @@ const translations = {
         "sec3.title": "3. Drittanbieterdienste auf dieser Website",
         "sec3.gfonts": "Diese Website verwendet die Schriftart 'Inter' von Google Fonts, die lokal auf diesem Server gehostet wird. Es wird keine Verbindung zu Google-Servern hergestellt und es werden keine Daten an Google übermittelt.",
         "sec3.tailwind": "Diese Website verwendet das CSS-Framework Tailwind CSS, das lokal auf diesem Server gehostet wird. Es wird keine Verbindung zu externen CDN-Servern hergestellt.",
-        "sec3.impressum": "Deutscher Text für Impressum Anbieter",
+        "sec3.impressum_title": "Impressumsdienstleister",
+        "sec3.impressum": "Diese Website nutzt den Impressumsservice 'Dein Impressum' (ihr-impressum.de) zur Bereitstellung der gesetzlich vorgeschriebenen Impressumsadresse. Der Dienstleister nimmt in meinem Auftrag postalische Sendungen entgegen und leitet diese weiter. Dabei können personenbezogene Daten (z. B. Absendername und -adresse) verarbeitet werden, die in der an die Impressumsadresse gerichteten Korrespondenz enthalten sind. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. c DSGVO (Erfüllung einer rechtlichen Verpflichtung, namentlich der Impressumspflicht gemäß § 5 DDG). Weitere Informationen finden Sie in der Datenschutzerklärung von 'Dein Impressum' unter ihr-impressum.de.",
 
         "sec4.title": "4. App-Bestimmungen (Monetheus)",
         "sec4.text1": "In meinen Apps steht der Schutz Ihrer Privatsphäre an oberster Stelle:",
